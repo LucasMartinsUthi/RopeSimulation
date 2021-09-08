@@ -1,3 +1,3 @@
 # RopeSimulation
 
-![gif](https://i.imgur.com/ZZpIpCN.gif)
+![gif](example.gif)
