@@ -8,6 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/matter.js"></script>
     <script src="js/classes/Point.js"></script>
+    <script src="js/classes/Stick.js"></script>
     <script src="js/app.js"></script>
     <title>Simulation</title>
 </head>
@@ -15,8 +16,14 @@
     <div id="matter"></div>
     <button value="Point" class="btn btn-secondary bodyType">Point</button>
     <button value="Stick" class="btn btn-secondary bodyType">Stick</button>
+    <button value="Lock" class="btn btn-secondary bodyType">Lock</button>
+    <button value="Sleep" class="btn btn-secondary bodyType">Sleep</button>
     <button value="Mouse" class="btn btn-secondary bodyType">Move</button>
     <button value="Remove" class="btn btn-secondary bodyType">Remove</button>
     <button id="run" class="btn btn-success">Run</button>
+    <br>
+    <br>
+    <button class="btn btn-secondary generateCloth">Generate Cloth</button>
+    <button class="btn btn-secondary generatePendulum">Generate Double Pendulum</button>
 </body>
 </html>
